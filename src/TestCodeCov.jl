@@ -1,5 +1,6 @@
 module TestCodeCov
 
-# Write your package code here.
+_identity(x) = x
+_add_one(x) = x + one(x)
 
 end

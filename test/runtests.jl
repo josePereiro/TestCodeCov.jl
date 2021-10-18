@@ -2,5 +2,7 @@ using TestCodeCov
 using Test
 
 @testset "TestCodeCov.jl" begin
-    # Write your tests here.
+    for it in 1:100
+        @test TestCodeCov._identity(it) == it
+    end
 end
